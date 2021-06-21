@@ -1,0 +1,20 @@
+{
+	"color": "#ffaf0c0c",
+	"description": "Villano, quien da los acertijos",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1624130035.json",
+	"mirror_portraits": false,
+	"name": "Villano",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

@@ -1,9 +1,10 @@
-[gd_scene load_steps=20 format=2]
+[gd_scene load_steps=22 format=2]
 
 [ext_resource path="res://Imagenes/SkyBoxGrande.jpg" type="Texture" id=1]
 [ext_resource path="res://Pruebas/Spatial.gd" type="Script" id=2]
 [ext_resource path="res://Objetos/LuzTitilante.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Jugador/PrimeraPersona.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Puzzles/Puzzle1.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Objetos/Trampa.tscn" type="PackedScene" id=6]
 [ext_resource path="res://Objetos/Amigo.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Objetos/Llave.tscn" type="PackedScene" id=8]
@@ -16,6 +17,7 @@
 [ext_resource path="res://Interfaz/GUIEnJuego.tscn" type="PackedScene" id=15]
 [ext_resource path="res://Objetos/Nota.tscn" type="PackedScene" id=16]
 [ext_resource path="res://Lugares/Casa.tscn" type="PackedScene" id=17]
+[ext_resource path="res://Tutorial/tutorial_inicio.tscn" type="PackedScene" id=18]
 
 [sub_resource type="PanoramaSky" id=1]
 radiance_size = 4
@@ -501,3 +503,8 @@ stream = ExtResource( 14 )
 
 [node name="GUI" parent="." instance=ExtResource( 15 )]
 visible = false
+
+[node name="Puzzle1" parent="." instance=ExtResource( 5 )]
+visible = false
+
+[node name="Node2D" parent="." instance=ExtResource( 18 )]

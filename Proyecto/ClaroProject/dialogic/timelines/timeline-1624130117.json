@@ -1,0 +1,67 @@
+{
+	"events": [
+		{
+			"character": "character-1624130035.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Buenas Noches, si quieres conseguir la llave, Deberas responder el siguiente acertijo."
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entendido"
+		},
+		{
+			"character": "character-1624130035.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Cual de las siguientes frases es esta desubicada?"
+		},
+		{
+			"choice": "La esperanza es el peor de los males, pues prolonga el tormento del hombre ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Todo lo que se hace por amor, se hace más allá del bien y del mal",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Los que más han amado al hombre le han hecho siempre el máximo daño",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Donde reina el amor sobran las leyes. ...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exacto, esta frase es de Pllaton..."
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1624130117.json",
+		"name": "Puzzle1"
+	}
+}

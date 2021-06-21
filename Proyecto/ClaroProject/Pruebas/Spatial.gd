@@ -2,13 +2,16 @@ extends Spatial
 
 var tiempoJuego = 0.0
 onready var menu = $GUI
+onready var puzzle = $Puzzle1
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
 	
 func _input(event):
-	menuPausa(event)
-	recapturarMouse(event)
+	if puzzle.getPuzzle()!=true:
+		menuPausa(event)
+		recapturarMouse(event)
 
 func menuPausa(event):
 	if event.is_action_pressed("ui_cancel"):

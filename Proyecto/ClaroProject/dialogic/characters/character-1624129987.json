@@ -1,0 +1,20 @@
+{
+	"color": "#ff0d8333",
+	"description": "Jugador 1, quien resuelve el puzzle",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1624129987.json",
+	"mirror_portraits": false,
+	"name": "Jugador_1",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

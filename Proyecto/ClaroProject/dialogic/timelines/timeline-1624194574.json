@@ -1,0 +1,97 @@
+{
+	"events": [
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿¡Donde estoy!?\n¿¡Como llegué aqui!?\n"
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo último que recuerdo es al Dr. Sánchez mostrandonos su vieja receta de cafe y después nada más."
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Necesito moverme un poco, la cabeza me sigue doliendo"
+		},
+		{
+			"character": "character-1624204186.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Usa la \"W\" para moverte hacia adelante, \n\"A\" para la izquierda, \n\"D\" para la derecha y \n\"S\" para atrás"
+		},
+		{
+			"event_id": "dialogic_023",
+			"wait_seconds": 5
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tengo que ver como escapar. Necesito salir de aqui"
+		},
+		{
+			"character": "character-1624204801.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¡HOLA!!\n¡¡ALGUIEN ME ESCUCHA!!\n¡¡POR FAVOR!!"
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Donde estas? Solo te puedo escuchar con este walkie talkie"
+		},
+		{
+			"character": "character-1624204801.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No lo sé, no recuerdo nada. \nSólo tengo este aparato para hablar con vos, unas notas y garabatos"
+		},
+		{
+			"character": "character-1624204186.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Puedes correr aprentando \"Shift\" mientras te desplazas"
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que encontré algo"
+		},
+		{
+			"character": "character-1624204186.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Puedes agarrar objetos con la \"E\""
+		},
+		{
+			"character": "character-1624204801.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ten cuidado.\nCreo que estos garabatos son instrucciones y pistas sobre trampas escondidas.\nPero, ¿por qué las tengo yo?"
+		},
+		{
+			"character": "character-1624129987.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eso no importa ahora, debemos salir de aqui sanos y salvos.\nTengo una linterna pero no debo llamar la atención.\nEl Doctor no tardará en aparecer seguramente."
+		},
+		{
+			"character": "character-1624204186.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Trata de no llamar la atención del Doctor.\nPodes apagar y prender la linterna con la \"F\""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1624194574.json",
+		"name": "Tutorial"
+	}
+}
