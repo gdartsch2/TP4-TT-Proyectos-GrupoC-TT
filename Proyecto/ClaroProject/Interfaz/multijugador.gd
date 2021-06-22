@@ -52,6 +52,7 @@ func borrar_jugador(id):
 	emit_signal("actualizacion_lista_jugadores")
 	
 remote func pre_inicio_juego():
+<<<<<<< HEAD
 	var jugador = load("res://Jugador/PrimeraPersona.tscn").instance()
 	var nivel
 	
@@ -63,6 +64,10 @@ remote func pre_inicio_juego():
 	for j_id in jugadores:
 		jugador.set_network_master(j_id)
 		
+=======
+	var nivel = rng.randi_range(0, 3)
+	var juego
+>>>>>>> parent of f3526a5... conflictos
 	if get_tree().get_network_unique_id() == 1:
 		if nivel == 0:
 			juego = load("res://Niveles/Nivel1.tscn").instance()
@@ -81,6 +86,8 @@ remote func pre_inicio_juego():
 			juego = load("res://Niveles/Nivel3P2.tscn").instance()
 		else:
 			juego = load("res://Niveles/Nivel4P2.tscn").instance()
+<<<<<<< Updated upstream
+=======
 	#rpc_id(2, "cargar_mapa", nivel)
 			
 	if not get_tree().is_network_server():
@@ -89,6 +96,7 @@ remote func pre_inicio_juego():
 		post_inicio_juego()
 			
 	print("Nivel: " + str(nivel))
+>>>>>>> Stashed changes
 		
 	get_tree().get_root().add_child(juego)
 	#get_tree().get_root().get_node("lobby").hide()
@@ -116,27 +124,6 @@ remote func pre_inicio_juego():
 #		elif jugadores.size() == 0:
 #			post_inicio_juego()
 			
-<<<<<<< Updated upstream
-=======
-#remote func cargar_mapa(num):
-#	var juego
-#	if num == 0:
-#		juego = load("res://Niveles/Nivel1P2.tscn").instance()
-#	elif num == 1:
-#		juego = load("res://Niveles/Nivel2P2.tscn").instance()
-#	elif num == 2:
-#		juego = load("res://Niveles/Nivel3P2.tscn").instance()
-#	else:
-#		juego = load("res://Niveles/Nivel4P2.tscn").instance()
-#
-#	get_tree().get_root().add_child(juego)
-#	get_tree().get_root().get_node("Lobby").hide()
-
-remote func cargar_nivel():
-	pass
-	
-
->>>>>>> Stashed changes
 remote func post_inicio_juego():
 	get_tree().set_pause(false)
 	
